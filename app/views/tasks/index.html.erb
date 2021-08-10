@@ -24,8 +24,8 @@
             <tr>
                 <td><%= task.id %></td>
                 <td><%= task.title %></td>
-                <td><%= task.start %></td>
-                <td><%= task.end %></td>
+                <td><%= task.start.to_s(:date_jp) %></td>
+                <td><%= task.finish_day.to_s(:date_jp) %></td>
                 <td>
                     <% if task.allday == "true" %>
                     ○

@@ -2,14 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-header {
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
     padding: 15px;
     background-color: #2480c5;
     color: #fff;
     margin: 0;
+    width: 100%;
 }
 
-header h1 {
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+header h1, footer h1 {
     display: block;
     font-size: 1.5em;
     font-weight: bold;

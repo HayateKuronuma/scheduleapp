@@ -1,4 +1,5 @@
 <h3>スケジュール編集</h3>
+<%= render "shared/error", obj:@task %>
 
 <%= form_for @task do |f| %>
     <table>
@@ -9,12 +10,12 @@
         
          <tr>
             <th><%= f.label :start, "開始日" %></th>
-            <td><%= f.datetime_field :start %></td>
+            <td><%= f.date_field :start %></td>
         </tr>
         
         <tr>
-            <th><%= f.label :end, "終了日" %></th>
-            <td><%= f.datetime_field :end %></td>
+            <th><%= f.label :finish_day, "終了日" %></th>
+            <td><%= f.date_field :finish_day %></td>
         </tr>
         
         <tr>

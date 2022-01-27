@@ -1,0 +1,67 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    padding: 15px;
+    background-color: #2480c5;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+header h1, footer h1 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.notice {
+    background-color: #ffe79d;
+    border: solid 2px #ffbf00;
+    text-align: center;
+    padding: 15px;
+    width: 400px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #7cd2ca;
+    padding: 10px 20px;
+    border: solid 1px black;
+}
+
+table td {
+    background-color: #c7f3ef;
+    padding: 10px 20px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+td input {
+    width: 100%;
+}
+
+
+textarea {
+     width: 350px;
+    height: 200px;
+}
+
+li {
+    list-style: none;
+}
